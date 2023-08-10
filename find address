@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 3;
+    int *x = &a;
+    cout<<"the value of the a is "<<*x<<endl;
+    cout<<"the value of the a is "<<a<<endl;
+    cout<<"the address of a is "<<&a<<endl;
+    cout<<"the address of a is "<<x<<endl;
+    return 0;
+}
