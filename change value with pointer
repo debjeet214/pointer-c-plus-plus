@@ -10,4 +10,5 @@ int main() {
     **y = 151;
     cout<<"the value of the a is "<<**y<<endl;
     return 0;
+
 }
